@@ -15,11 +15,11 @@
 
 
 .jumbotron{
-    height: 800px;
+    height: 850px;
 
     background-image: url('../img/kobe1.jpg');
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: center top 25%;
     background-size: cover;
     color: yellow;
     text-shadow: 2px 4px purple;
@@ -50,6 +50,22 @@
     font-family: Cursive;
     font-size: 30px;
     text-align: left;
+}
+
+#videos{
+    display: flex;
+    justify-content: space-evenly;
+}
+/* 
+.carousel_control_size{
+    height: 50px;
+} */
+
+.carousel_control_size{
+    height: 150px;
+    width: 150px
+
+
 }
 /* #story p bottom{
 
