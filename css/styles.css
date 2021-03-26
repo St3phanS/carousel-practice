@@ -1,0 +1,56 @@
+.navbar{
+    background-color: #000;
+
+}
+.navbar-brand img{
+    height: 50px;
+    width: 50px;
+
+}
+
+#nav-link {
+    color: #fff;
+}
+
+
+
+.jumbotron{
+    height: 800px;
+
+    background-image: url('../img/kobe1.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    color: yellow;
+    text-shadow: 2px 4px purple;
+
+}
+
+.carousel-inner img{
+    height: 1000px;
+    width: 1000px;
+}
+
+#story #top{
+    font-size: 40px;
+    font-weight: 600;
+ 
+}
+
+#story #bottom{
+    font-size: 24px;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    border-style: double;
+    border-width: 30px;
+}
+
+#dear{
+    font-family: Cursive;
+    font-size: 30px;
+    text-align: left;
+}
+/* #story p bottom{
+
+} */
