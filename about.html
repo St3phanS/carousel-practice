@@ -7,6 +7,9 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
         integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Raleway:wght@100;400&display=swap" rel="stylesheet">
+
     <title>Bootstrap Template</title>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -15,38 +18,41 @@
     <nav class="navbar navbar-expand-lg navbar-dark">
         <a class="navbar-brand" href="#"><img src="../img/logo.jpg" alt=""></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon"></span>
         </button>
-    
+      
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
+          <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="about.html">About</a>
             </li>
+            <li class="nav-item">
+                <a class="nav-link" href="donate.html">Donate</a>
+              </li>
             <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Shop
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <a class="dropdown-item" href="#">Men's</a>
                 <a class="dropdown-item" href="#">Women's</a>
                 <div class="dropdown-divider"></div>
                 <a class="dropdown-item" href="#">Kid's</a>
-            </div>
+              </div>
             </li>
             <li class="nav-item">
-            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
             </li>
-        </ul>
-        <form class="form-inline my-2 my-lg-0">
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
             <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-        </form>
+          </form>
         </div>
-    </nav>
+      </nav>
 
     <div class="container-fluid mb-0" id="about-text-top">
         <div class="container justify-content-center text-center">
@@ -55,51 +61,143 @@
         </div>
 
     </div>
-    <div class="jumbotron jumbotron-fluid" id="jumbotron2">
+    <div class="jumbotron jumbotron-fluid mb-0" id="jumbotron2">
         <img src="./img/K&GM.jpg" alt="picture of Kobe and Gianna Bryant">
         
-        </div>
+    </div>
     
-    <!-- <div class="jtbg w-100">
-        <div class="jumbotron jumbotron-fluid" id="jumbotron2">
-        <div class="container justify-content-center text-center">
-            <h1 class="display-4">Mamba Mentality</h1>
-            <p class="lead">This website is dedicated to the memory of Kobe Bean Bryant (August 23, 1978 – January 26, 2020) </p>
-        </div>
-        </div>
-    </div> -->
-
     <div class="container-fluid">
-        <div class="row d-flex" id="videos">
-            <div class="mem-video" id="videos">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/uhLa0W1LQdI?start=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-            <div class="tribute" id="videos">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/RwO_27FF3L0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-            <div class="kanye" id="videos">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/wt_MLLVcxoc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="row h-100" id="background-about">
+            <div class="background-img-about">
+                <div class="container-fluid" id="story" >
+                    <div class="row d-flex justify-content-center px-5">
+                        
+                            <p id="top">A Letter Never Sent</p>
+                            <p id="bottom">
+                                <br><br><span id="dear">Dear Kobe, </span> <br> <br>You have been a huge influence on my life since childhood. I remember watching the Lakers win the championship in 2009 and being completely infatuated with your game. How you approached the game of basketball has always been something special to watch. Your work ethic was unmatched, not only with basketball, but in life as well. The way you have influenced the world is truly something beautiful to witness. 
+                                <br> <br>
+                                Hearing kids yell Kobe as they throw things has always brought joy to my heart, however, now it will be accompanied by small amount of sadness as you are no longer with us. You gave basketball everything you had and the effect you had will never be forgotten. You will be the a symbol that will inspire generations to come. Videos of your games and style will be analyzed for years and will become something for kids to aspire towards. 
+                                <br> <br>
+                                Although your contribution to the game can not be quantified, what was really an inspiration was watching what you did after retirement. You became an advocate for women athletes and were actively trying to improve the world that your daughters were growing up in. You gave back to the youth, and provided tips and pointers to anyone who asked. You may have been a cold blooded competitor on the court, but off the court you were a loving husband, father, friend, and idol. You showed the world that one can be both ruthless and caring at the same time. You became a successful writer and inspirational speaker. Proving that you were more than just an athlete. You set a precedent that children do not have to choose between athletics or academics.  
+                                <br> <br>
+                                I always dreamed of meeting you some day and nervously telling you how much you have influenced my life. I always imagined going to one of your book signings and getting a picture with one of my idols. Telling you how appreciative I was for all the lessons I have gained from you. Telling you how I watched as many of your games as possible. Then sadly counting down the games left of your final season. I remember where I was when you played your last game. I remember the excitement of counting every point of your final 60 point game and getting into an arguement when my friends wanted to change to the warriors game during commercial break as I did not want to miss a second of it. I remember the sadness when it was finally over, and now an even greater sadness upon the realization that you are gone forever. This world lost such an amazing man and my hearts and prayers go out his family and loved ones. 
+                                <br> <br>
+                                <span id="dear">R.I.P. Kobe Bean Bryant</span> <br>  <br>
+                                #KobeBeanBryant #MambaMentality #24 #Kobe <br> <br> </p>
+                    </div>
+                </div>
+
+        
+    
+
+                <div class="container-fluid" id="carousel-kobe">
+                    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="d-block w-100" src="../img/foundation.jpeg" alt="First slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="../img/families.jpeg" alt="Second slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../img/k&g4.jpeg" alt="Third slide" class="d-block w-100">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="../img/k&g3.jpeg" alt="Third slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="../img/k&g2.jpeg" alt="Fourth slide">
+                        </div>
+                        </div>
+
+                        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon carousel_control_size" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon carousel_control_size" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="container-fluid bg-transparent">
+                    <div class="row d-flex flex-column justify-content-center text-center">
+                        <div class="col-sm-12 d-flex justify-content-center text-center text-center flex-column">
+
+                            <p class="quote">"Our mission is to provide opportunities to young people through sports. We hope to empower young athletes in a world they left us all to help shape."</p>
+
+
+                            <p class="quote">"Because there is no #24 without #2, we have updated the Mamba Sports Foundation to now be called the Mamba & Mambacita Sports Foundation," <br> <br> Vanessa Bryant</p>
+
+
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="container-fluid">
+                    <div class="row d-flex justify-content-center text-center" id="donate-con">
+                            <div class="col-md-6  h-100" id="donate">
+                                <div class="row d-flex justify-content-center align-items-center h-100">
+                                    <section class="col-md-8 text-center p-5">
+                                        <h2 class="Donate-text text-uppercase">Donate To <br> <br> <spam class="Mamba-text">The Mamba & Mambacita Foundation</spam></h2>
+                                        <p class="Donate-text text-darker">All proceeds will go to helping under priviledged athletes </p>
+                                        
+                                        <div id="accordion">
+                                            <div class="card">
+                                                <div class="card-header" id="headingOne">
+                                                <h5 class="mb-0">
+                                                    <button class="donate_button bg-dark text-uppercase rounded px-2 font-weight-bold border border-dark" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                                    Quick Donation
+                                                    </button>
+                                                </h5>
+                                                </div>
+                    
+                                                <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                                                <div class="card-body">
+                                                    Donate $1
+                                                </div>
+                                                </div>
+                                                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                                                    <div class="card-body">
+                                                        Donate $5
+                                                    </div>
+                                                </div>
+                                                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                                                    <div class="card-body">
+                                                        Donate $25
+                                                    </div>
+                                                </div>
+                                                <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+                                                    <div class="card-body">
+                                                        Donate $100
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        <a href="donate.html">
+                                            <button class="donate_button bg-dark text-uppercase rounded px-2 font-weight-bold border border-dark" >Donation Form</button>
+                                        </a>
+                                    </section>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+
+                <div class="container-fluid">
+                    <div class="row d-flex justify-content-center text-center">
+                        <p class="website-purpose">This website was developed in order to raise awareness of the Mamba & Mambacita Foundation</p>
+                    </div>
+                </div>
+
+
+
+
+
             </div>
         </div>
     </div>
-
-    <div class="container-fluid" id="story" >
-        <div class="row d-flex justify-content-center px-5">
-            <p id="top">A Letter Never Sent</p>
-            <p id="bottom">
-                <br><br><span id="dear">Dear Kobe, </span> <br> <br>You have been a huge influence on my life since childhood. I remember watching the Lakers win the championship in 2009 and being completely infatuated with your game. How you approached the game of basketball has always been something special to watch. Your work ethic was unmatched, not only with basketball, but in life as well. The way you have influenced the world is truly something beautiful to witness. 
-                <br> <br>
-                Hearing kids yell Kobe as they throw things has always brought joy to my heart, however, now it will be accompanied by small amount of sadness as you are no longer with us. You gave basketball everything you had and the effect you had will never be forgotten. You will be the a symbol that will inspire generations to come. Videos of your games and style will be analyzed for years and will become something for kids to aspire towards. 
-                <br> <br>
-                Although your contribution to the game can not be quantified, what was really an inspiration was watching what you did after retirement. You became an advocate for women athletes and were actively trying to improve the world that your daughters were growing up in. You gave back to the youth, and provided tips and pointers to anyone who asked. You may have been a cold blooded competitor on the court, but off the court you were a loving husband, father, friend, and idol. You showed the world that one can be both ruthless and caring at the same time. You became a successful writer and inspirational speaker. Proving that you were more than just an athlete. You set a precedent that children do not have to choose between athletics or academics.  
-                <br> <br>
-                I always dreamed of meeting you some day and nervously telling you how much you have influenced my life. I always imagined going to one of your book signings and getting a picture with one of my idols. Telling you how appreciative I was for all the lessons I have gained from you. Telling you how I watched as many of your games as possible. Then sadly counting down the games left of your final season. I remember where I was when you played your last game. I remember the excitement of counting every point of your final 60 point game and getting into an arguement when my friends wanted to change to the warriors game during commercial break as I did not want to miss a second of it. I remember the sadness when it was finally over, and now an even greater sadness upon the realization that you are gone forever. This world lost such an amazing man and my hearts and prayers go out his family and loved ones. 
-                <br> <br>
-                <span id="dear">R.I.P. Kobe Bean Bryant</span> <br>  <br>
-                #KobeBeanBryant #MambaMentality #24 #Kobe <br> <br> </p>
-        </div>
-    </div>
-
 
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
